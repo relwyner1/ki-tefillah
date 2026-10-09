@@ -1,0 +1,35 @@
+{
+  "K-1": {
+    "candles": "assets/audio/K-1/candles",
+    "wine": "assets/audio/K-1/wine",
+    "motzi": "assets/audio/K-1/motzi",
+    "shema-short": "assets/audio/K-1/shema-short",
+    "oseh": "assets/audio/K-1/oseh",
+    "barchu": "assets/audio/K-1/barchu",
+    "adon-short": "assets/audio/K-1/adon-short",
+    "shehecheyanu": "assets/audio/K-1/shehecheyanu"
+  },
+  "2-3": {
+    "adon": "assets/audio/2-3/adon",
+    "avot": "assets/audio/2-3/avot",
+    "barchu": "assets/audio/2-3/barchu",
+    "ashrei-short": "assets/audio/2-3/ashrei-short",
+    "psalm150": "assets/audio/2-3/psalm150",
+    "mi": "assets/audio/2-3/mi",
+    "shema": "assets/audio/2-3/shema",
+    "vshamru": "assets/audio/2-3/vshamru"
+  },
+  "4-5": {
+    "anim": "assets/audio/4-5/anim",
+    "ashrei": "assets/audio/4-5/ashrei",
+    "barchu": "assets/audio/4-5/barchu",
+    "eladon": "assets/audio/4-5/eladon",
+    "psalm150": "assets/audio/4-5/psalm150",
+    "kaddish": "assets/audio/4-5/kaddish",
+    "yotzer": "assets/audio/4-5/yotzer",
+    "shema": "assets/audio/4-5/shema",
+    "shochein": "assets/audio/4-5/shochein",
+    "vehaer": "assets/audio/4-5/vehaer",
+    "yishtabach": "assets/audio/4-5/yishtabach"
+  }
+}
