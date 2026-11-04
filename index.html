@@ -12,6 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="assets/images/icon-192.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bnei.css?v=20261104">
 </head>
 <body>
   <header class="site-header">
@@ -19,7 +20,7 @@
       <img src="assets/images/ki-logo.png" alt="" class="brand-logo">
       <span class="brand-copy"><strong>KIRS Tefillah</strong><small>Learn · Practice · Lead</small></span>
     </a>
-    <nav aria-label="Classes"><a href="#K-1">K–1</a><a href="#2-3">2–3</a><a href="#4-5">4–5</a></nav>
+    <nav aria-label="Classes"><a href="#K-1">K–1</a><a href="#2-3">2–3</a><a href="#4-5">4–5</a><a href="#bnei-mitzvah">B’nei Mitzvah</a></nav>
   </header>
   <main id="main"></main>
   <footer>A KIRS learning resource · Kehillath Israel<br>Recordings by Hazzan Ariel Wyner</footer>
@@ -44,7 +45,7 @@
     <div class="text-head"><h3>Prayer text</h3><label><input id="show-translit" type="checkbox" checked> Transliteration</label></div>
     <p id="text-note" class="muted"></p><div id="prayer-text"></div>
   </dialog>
-  <script src="data.js"></script><script src="app.js"></script>
+  <script src="data.js"></script><script src="bnei.js?v=20261104"></script><script src="app.js?v=20261104"></script>
   <script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
 </body>
 </html>
