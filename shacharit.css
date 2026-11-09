@@ -1,0 +1,5 @@
+.ft-outline [data-sh-track]{display:block;width:100%;text-align:left;padding:.65rem .75rem;background:white;color:#1c2452;border:1px solid #e2e7ef;border-radius:.45rem;margin:.3rem 0;cursor:pointer}
+.ft-outline [data-sh-track][aria-pressed=true]{background:#1c2452;color:white}
+#sh-text [hidden]{display:none}
+#sh-audio{display:block;margin:.75rem 0}
+#sh-text{margin-bottom:1rem}
