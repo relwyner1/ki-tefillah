@@ -148,6 +148,8 @@ PRAYERS.anim.lines=rows(`
 מִי יְמַלֵּל גְּבוּרוֹת יְיָ, יַשְׁמִיעַ כָּל תְּהִלָּתוֹ. | Mi y’malel g’vurot Adonai, yashmi’a kol t’hilato. | Who can tell of Adonai’s mighty deeds, or make all God’s praise heard?
 `);
 delete PRAYERS.anim.excerpt;
+PRAYERS.anim.leaderLines=new Set(PRAYERS.anim.lines.flatMap((_,i,lines)=>i%2===0||i>=lines.length-2?[i]:[]));
+PRAYERS.anim.practiceNote='Practice the highlighted lines. The unhighlighted lines are the congregation’s responses.';
 
 const torah={
  'ein-kamocha':['There is none like You among the gods, Adonai, and nothing like Your deeds.','Your reign lasts through all ages, and Your rule endures through every generation.','Adonai reigns; Adonai has reigned; Adonai will reign forever and ever.','May Adonai give strength to God’s people; may Adonai bless God’s people with peace.'],

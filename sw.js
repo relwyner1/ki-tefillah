@@ -1,4 +1,4 @@
-const CACHE='ki-tefillah-prayer-text-20261109';
+const CACHE='ki-tefillah-shir-leader-20261109';
 const SHELL=['/','/index.html','/style.css','/app.js','/data.js','/recordings.json','/manifest.webmanifest','/assets/images/ki-logo.png','/assets/images/icon-192.png','/assets/images/icon-512.png','/assets/cards/K-1.png','/assets/cards/2-3.png','/assets/cards/4-5.png'];
 
 self.addEventListener('install',e=>{self.skipWaiting();});
