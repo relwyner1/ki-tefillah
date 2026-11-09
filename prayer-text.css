@@ -1,0 +1,12 @@
+/* Shared text styles for class practice, student passages, and full services. */
+.ki-text-toggles{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;font-size:12px}
+.ki-text-toggles label{display:flex;align-items:center;gap:5px;font-size:inherit}
+.ki-english{font-size:15px;line-height:1.7;color:#3d4960;margin:10px 0 0}
+.ki-english::before{content:"English";display:block;font-size:10px;font-weight:750;letter-spacing:.07em;text-transform:uppercase;color:#59647a;margin-bottom:2px}
+.ki-english[hidden]{display:none!important}
+.bm-lesson>.ki-english{margin:8px 0 14px}
+.ki-practice-lines>.line{background:#fff7d8;padding:14px 12px;margin:6px 0;border-radius:8px}
+.ki-full-text{margin-top:20px;border-top:1px solid #dfe4ee;padding-top:12px}
+.ki-full-text>summary{cursor:pointer;font-size:14px;font-weight:700;color:#1c2452}
+.ki-full-link{font-size:13px;font-weight:650;display:inline-block;margin-top:14px}
+@media(max-width:420px){.ki-text-toggles{font-size:11px;gap:6px 10px}.ki-english{font-size:14px}}
