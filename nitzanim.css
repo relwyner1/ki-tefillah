@@ -1,0 +1,14 @@
+.nz{max-width:54rem;margin-inline:auto}
+.nz-outline,.nz-part{border:1px solid #e1e5ec;border-radius:1rem;background:white;padding:clamp(1rem,3vw,1.7rem);margin-block:1rem}
+.nz-outline summary{font-weight:700;cursor:pointer}
+.nz-outline ul{padding-left:1.2rem}
+.nz-outline button{border:0;background:none;color:#1c2452;text-align:left;text-decoration:underline;padding:.3rem;cursor:pointer}
+.nz-part h2{margin-top:0;scroll-margin-top:1rem}
+.nz-line{margin:.65rem 0;white-space:pre-line}
+.nz-line span{display:inline-block;min-width:4.5em;font-size:.8em;font-weight:700}
+.nz-cue{background:#f0f3fb;border-radius:.4rem;padding:.65rem}
+.nz-sing,.nz-hebrew{font-weight:650}
+.nz-meaning{color:#505a71;font-size:.94rem}
+.nz-audio{display:block;margin:.75rem 0;font-weight:650}
+.nz-audio audio{display:block;width:100%;margin:.35rem 0}
+.nz-demo{display:inline-block;margin-bottom:.6rem}
