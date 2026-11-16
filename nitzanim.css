@@ -1,14 +1,26 @@
-.nz{max-width:54rem;margin-inline:auto}
-.nz-outline,.nz-part{border:1px solid #e1e5ec;border-radius:1rem;background:white;padding:clamp(1rem,3vw,1.7rem);margin-block:1rem}
-.nz-outline summary{font-weight:700;cursor:pointer}
-.nz-outline ul{padding-left:1.2rem}
-.nz-outline button{border:0;background:none;color:#1c2452;text-align:left;text-decoration:underline;padding:.3rem;cursor:pointer}
-.nz-part h2{margin-top:0;scroll-margin-top:1rem}
-.nz-line{margin:.65rem 0;white-space:pre-line}
-.nz-line span{display:inline-block;min-width:4.5em;font-size:.8em;font-weight:700}
-.nz-cue{background:#f0f3fb;border-radius:.4rem;padding:.65rem}
+.nz{max-width:56rem;margin-inline:auto;color:#1c2452}
+.nz-switch{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.nz-switch button,.nz-overview button{font:inherit;cursor:pointer;color:inherit;background:white;border:1px solid #d9e0ed;border-radius:.6rem;padding:.65rem .85rem}
+.nz-switch [aria-pressed=true]{background:#1c2452;color:white;border-color:#1c2452}
+.nz-overview,.nz-phase{background:white;border:1px solid #e1e5ec;border-radius:1rem;padding:clamp(1rem,3vw,1.75rem);margin-block:1rem}
+.nz-overview h2,.nz-phase h2{margin-top:0;scroll-margin-top:1.25rem}
+.nz-overview ol,.nz-song-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:.55rem;padding:0;list-style:none}
+.nz-overview button{display:block;text-align:left;width:100%}
+.nz-overview button span,.nz-phase h2 span{font-size:.82em;font-variant-numeric:tabular-nums;color:#53627d;margin-right:.75rem}
+.nz-part:not(:first-of-type){border-top:1px solid #e1e5ec;margin-top:1rem;padding-top:.4rem}
+.nz-part h3{scroll-margin-top:1.25rem}
+.nz-line{margin:.55rem 0;white-space:pre-line;line-height:1.55}
+.nz-cue,.nz-meaning{color:#505a71;font-size:.94rem}
 .nz-sing,.nz-hebrew{font-weight:650}
-.nz-meaning{color:#505a71;font-size:.94rem}
-.nz-audio{display:block;margin:.75rem 0;font-weight:650}
-.nz-audio audio{display:block;width:100%;margin:.35rem 0}
+.nz-learning{background:#fff6d9;border-inline-start:4px solid #c58c1f;border-radius:.45rem;padding:.8rem 1rem;margin:1rem 0}
+.nz-learning h4,.nz-learning p{margin:.25rem 0}
+.nz-tag{font-size:.72rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#65470d}
+.nz-recordings{margin:1rem 0;padding:.65rem .85rem;background:#f1f4fa;border-radius:.6rem}
+.nz-recordings summary{cursor:pointer;font-weight:650}
+.nz-audio{margin:.65rem 0}
+.nz-audio strong{font-size:.9rem}
+.nz-audio audio{display:block;width:100%;margin:.4rem 0}
+.nz-song{min-width:0;border:1px solid #e1e5ec;border-radius:.65rem;padding:.8rem}
+.nz-song h3{margin-top:0}
+.nz-link{color:#1c2452;text-decoration:underline;border:0;background:none;cursor:pointer;padding:.4rem 0}
 .nz-demo{display:inline-block;margin-bottom:.6rem}

@@ -390,7 +390,7 @@ window.KI_NITZANIM = {
     },
     {
       "id": "mi-chamocha",
-      "title": "Mi Chamocha",
+      "title": "Mi Chamocha · Carla Friend",
       "lines": [
         [
           "text",
@@ -398,43 +398,7 @@ window.KI_NITZANIM = {
         ],
         [
           "sing",
-          "Mi chamocha ba'elim Adonai"
-        ],
-        [
-          "sing",
-          "Mi kamocha nedar bakodesh"
-        ],
-        [
-          "sing",
-          "Nora tehilot, oseh fele"
-        ],
-        [
-          "sing",
-          "Nora tehilot, oseh fele"
-        ],
-        [
-          "hebrew",
-          "מִי כָמֹכָה בָּאֵלִים יְיָ"
-        ],
-        [
-          "hebrew",
-          "מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ"
-        ],
-        [
-          "hebrew",
-          "נוֹרָא תְהִלֹּת, עֹשֵׂה פֶלֶא"
-        ],
-        [
-          "meaning",
-          "[Who is like You, O God, among the gods that are worshiped?"
-        ],
-        [
-          "sing",
-          "Who is like You, majestic in holiness, awesome in splendor, working wonders?]"
-        ],
-        [
-          "sing",
-          "Carla Friend version:          Mi chamocha (x3) We made it ‘cross the sea / Mi chamocha (x3) We’re dancing ‘cause we’re free"
+          "Mi chamocha (x3) We made it ‘cross the sea\nMi chamocha (x3) We’re dancing ‘cause we’re free"
         ],
         [
           "sing",
@@ -997,14 +961,7 @@ window.KI_NITZANIM = {
     }
   ],
   "media": {
-    "mi-chamocha": {
-      "audio": [
-        {
-          "title": "Mi Chamocha",
-          "src": "nitzanim-audio/mi-chamocha.m4a"
-        }
-      ]
-    },
+    "mi-chamocha": {},
     "hinei-mah-tov": {
       "audio": [
         {
